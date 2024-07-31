@@ -1,0 +1,48 @@
+div{
+    font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3A3A3A; /* Dark gray background */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 20px;
+}
+.beta{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.para{
+    max-width: 600px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    /* font-size: 20px; */
+    padding: 20px;
+    background-color: #FFBC00;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #3A3A3A; /* Dark gray background */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Fixed at the bottom of the page */
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer p {
+    margin: 0;
+}
